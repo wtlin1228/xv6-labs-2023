@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "*.mdx": "markdown",
+        "types.h": "c",
+        "spinlock.h": "c",
+        "proc.h": "c",
+        "riscv.h": "c",
+        "defs.h": "c"
+    }
+}
