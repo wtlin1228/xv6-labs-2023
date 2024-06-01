@@ -9,6 +9,10 @@
 -   [x] find (moderate)
 -   [x] xargs (moderate)
 
+## Lab2: System Calls
+
+-   [x] using gdb (easy) - [link](https://github.com/wtlin1228/xv6-labs-2023/blob/syscall/answers-syscall.txt)
+
 # xv6
 
 xv6 is a re-implementation of Dennis Ritchie's and Ken Thompson's Unix
