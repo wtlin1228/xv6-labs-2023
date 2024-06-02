@@ -12,6 +12,7 @@
 ## Lab2: System Calls
 
 -   [x] using gdb (easy) - [link](https://github.com/wtlin1228/xv6-labs-2023/blob/syscall/answers-syscall.txt)
+-   [x] system call tracing - [link](https://github.com/wtlin1228/xv6-labs-2023/commit/a2e6bcd1d5bcc8abcfda32737275ab0954dbf589) 
 
 # xv6
 
