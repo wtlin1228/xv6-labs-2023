@@ -12,8 +12,13 @@
 ## Lab2: System Calls
 
 -   [x] using gdb (easy) - [link](https://github.com/wtlin1228/xv6-labs-2023/blob/syscall/answers-syscall.txt)
--   [x] system call tracing - [link](https://github.com/wtlin1228/xv6-labs-2023/commit/a2e6bcd1d5bcc8abcfda32737275ab0954dbf589)
--   [x] sysinfo - [link](https://github.com/wtlin1228/xv6-labs-2023/commit/e94e2441b7ec81b64d55faaef1d305649498c810)
+-   [x] system call tracing (moderate) - [link](https://github.com/wtlin1228/xv6-labs-2023/commit/a2e6bcd1d5bcc8abcfda32737275ab0954dbf589)
+-   [x] sysinfo (moderate) - [link](https://github.com/wtlin1228/xv6-labs-2023/commit/e94e2441b7ec81b64d55faaef1d305649498c810)
+
+## Lab3: 
+
+-   [x] Speed up system calls (easy) - [link](https://github.com/wtlin1228/xv6-labs-2023/commit/730b6c50a0234cd0f8c9fc87c2e82795f5b9f7bc)
+
 
 # xv6
 
