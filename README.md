@@ -17,7 +17,7 @@
 
 ## Lab3: 
 
--   [x] Speed up system calls (easy) - [link](https://github.com/wtlin1228/xv6-labs-2023/commit/730b6c50a0234cd0f8c9fc87c2e82795f5b9f7bc)
+-   [x] Speed up system calls (easy) - [link](https://github.com/wtlin1228/xv6-labs-2023/commit/3e4a79ecc90d9e4b8c46f49f1f78805849872c67)
 
 
 # xv6
