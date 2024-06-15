@@ -19,6 +19,7 @@
 
 -   [x] Speed up system calls (easy) - [link](https://github.com/wtlin1228/xv6-labs-2023/commit/3e4a79ecc90d9e4b8c46f49f1f78805849872c67)
 -   [x] Print a page table (easy) - [link](https://github.com/wtlin1228/xv6-labs-2023/commit/419eea2543ea20eeddb4f5824724fa17a8f8bd22)
+-   [x] Detect which pages have been accessed (hard) - [link](https://github.com/wtlin1228/xv6-labs-2023/commit/bd54d6ffe47fc11bde527e7228726796e59630fb) 
 
 
 # xv6
