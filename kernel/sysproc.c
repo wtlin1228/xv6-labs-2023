@@ -75,6 +75,35 @@ int
 sys_pgaccess(void)
 {
   // lab pgtbl: your code here.
+  uint64 base_addr;
+  int len;
+  uint64 mask_addr;
+  uint abits = 0;
+  struct proc *p = myproc();
+  pte_t *pte;
+
+  argaddr(0, &base_addr);
+  argint(1, &len);
+  argaddr(2, &mask_addr);
+
+  for (int i = 0; i < len; i++)
+  {
+    if ((pte = walk(p->pagetable, base_addr + PGSIZE * i, 0)) == 0)
+      panic("sys_pgaccess: walk");
+    if ((*pte & PTE_V) == 0)
+      panic("sys_pgaccess: not mapped");
+    if (PTE_FLAGS(*pte) == PTE_V)
+      panic("sys_pgaccess: not a leaf");
+    if (*pte & PTE_A)
+    {
+      abits |= (1 << i);
+      *pte &= ~(PTE_A);
+    }
+  }
+
+  if (copyout(p->pagetable, mask_addr, (char *)&abits, sizeof(uint)) < 0)
+    return -1;
+
   return 0;
 }
 #endif
