@@ -1,13 +1,13 @@
 # xv6-labs-2023
 
-## Lab1: Xv6 and Unix utilities
+## Lab1: Utilities
 
 -   [x] Boot xv6 (easy)
--   [x] sleep (easy)
--   [x] pingpong (easy)
--   [x] primes (moderate)/(hard)
--   [x] find (moderate)
--   [x] xargs (moderate)
+-   [x] sleep (easy) - [link](https://github.com/wtlin1228/xv6-labs-2023/commit/079fcd5a718fb2182828cf6d36335600e7ec5e48)
+-   [x] pingpong (easy) - [link](https://github.com/wtlin1228/xv6-labs-2023/commit/87daa146e65a6c3b4eda0e6f14d6d1496d2fa543)
+-   [x] primes (moderate)/(hard) - [link](https://github.com/wtlin1228/xv6-labs-2023/commit/13d003dfe9c6c0482caac6455d42bfdfdf90cebd)
+-   [x] find (moderate) - [link](https://github.com/wtlin1228/xv6-labs-2023/commit/6b81837aee3ce9e9b6a30c275ad9a5865bc0d247)
+-   [x] xargs (moderate) - [link](https://github.com/wtlin1228/xv6-labs-2023/commit/3d1defdc48c883d1a7a172c9ecd2ab5fce310b83)
 
 ## Lab2: System Calls
 
@@ -15,7 +15,7 @@
 -   [x] system call tracing (moderate) - [link](https://github.com/wtlin1228/xv6-labs-2023/commit/a2e6bcd1d5bcc8abcfda32737275ab0954dbf589)
 -   [x] sysinfo (moderate) - [link](https://github.com/wtlin1228/xv6-labs-2023/commit/e94e2441b7ec81b64d55faaef1d305649498c810)
 
-## Lab3: 
+## Lab3: Page Tables
 
 -   [x] Speed up system calls (easy) - [link](https://github.com/wtlin1228/xv6-labs-2023/commit/3e4a79ecc90d9e4b8c46f49f1f78805849872c67)
 -   [x] Print a page table (easy) - [link](https://github.com/wtlin1228/xv6-labs-2023/commit/419eea2543ea20eeddb4f5824724fa17a8f8bd22)
