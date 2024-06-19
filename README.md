@@ -21,6 +21,47 @@
 -   [x] Print a page table (easy) - [link](https://github.com/wtlin1228/xv6-labs-2023/commit/419eea2543ea20eeddb4f5824724fa17a8f8bd22)
 -   [x] Detect which pages have been accessed (hard) - [link](https://github.com/wtlin1228/xv6-labs-2023/commit/bd54d6ffe47fc11bde527e7228726796e59630fb) 
 
+# GNU Debugger
+
+## Layout
+
+- `tui enable`
+- `layout asm`
+- `layout reg`
+- `layout src`
+- `layout split`
+
+## Breakpoint
+
+- `b <target>`
+- `b <target> if <condition>`
+- `info breakpoints`
+- `watch <target>`: break when target changes
+
+## Register
+
+- `info reg`
+
+## Focus
+
+- `focus asm`
+- `focus reg`
+- `focus src`
+- `focus cmd`
+
+## Stack Frame
+
+- `info frame`
+- `info args`
+- `info locals`
+- `backtrace`
+- `frame <number>`: go to frame #number, then can use `info frame`
+
+## Print
+
+- `print *argv`: print the first argument
+- `print *argv@2`: print the first two arguments
+- `print *argv@argc`: print the whole argument array
 
 # xv6
 
