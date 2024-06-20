@@ -21,6 +21,12 @@
 -   [x] Print a page table (easy) - [link](https://github.com/wtlin1228/xv6-labs-2023/commit/419eea2543ea20eeddb4f5824724fa17a8f8bd22)
 -   [x] Detect which pages have been accessed (hard) - [link](https://github.com/wtlin1228/xv6-labs-2023/commit/bd54d6ffe47fc11bde527e7228726796e59630fb) 
 
+## Lab4: Traps
+
+-   [x] RISC-V assembly (easy) - [link](https://github.com/wtlin1228/xv6-labs-2023/commit/c6d2ab1b6cbeb8af8f2944f5c6946619ba989d97) 
+
+
+
 # Note
 
 ## Trap
