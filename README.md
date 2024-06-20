@@ -21,6 +21,37 @@
 -   [x] Print a page table (easy) - [link](https://github.com/wtlin1228/xv6-labs-2023/commit/419eea2543ea20eeddb4f5824724fa17a8f8bd22)
 -   [x] Detect which pages have been accessed (hard) - [link](https://github.com/wtlin1228/xv6-labs-2023/commit/bd54d6ffe47fc11bde527e7228726796e59630fb) 
 
+# Note
+
+## Trap
+
+```
+SH
+  write()
+  ecall ◄────────────────────────────┐  
+    │                                │
+    │                                │
+────┼────────────────────────────────┼────── 
+    │                                │
+    ▼                                │
+ uservec ------ trampoline ------ userret()
+    │                                ▲
+    ▼                                │     
+ usertrap()                    usertrapret()
+    │                                ▲
+    ▼                                │
+ syscall() ──────────────────────────┘
+    │    
+    ▼
+ sys_write()
+```
+
+`ecall` does:
+
+1. set mode to supervisor
+2. save the `$pc` to `$sepc`
+3. save trampoline page to `$pc`
+
 # GNU Debugger
 
 ## Layout
