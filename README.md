@@ -48,11 +48,16 @@ SH
 
 `ecall` does:
 
-1. set mode to supervisor
+1. set mode from user to supervisor
 2. save the `$pc` to `$sepc`
-3. save trampoline page to `$pc`
+3. save trampoline page to `$pc` (through jumping to `$stvec`)
 
 # GNU Debugger
+
+## QEMU
+
+- `control + A then C`: open the qemu console
+- `info mem`: print the complete page table
 
 ## Layout
 
@@ -93,6 +98,34 @@ SH
 - `print *argv`: print the first argument
 - `print *argv@2`: print the first two arguments
 - `print *argv@argc`: print the whole argument array
+- `print/<format> <target>`
+
+format:
+
+- x: Hexadecimal
+- d: Decimal
+- u: Unsigned decimal
+- o: Octal
+- t: Binary
+- a: Address
+- c: Character
+- f: Floating point
+- s: String
+- i: Instruction (machine code)
+
+## Memory Examination
+
+- `x/<unit of memory><format> <target>`: `x/2c $a0` means to examine 2 bytes, interpreting each byte as a character
+
+format:
+
+- b (byte): 1 unit = 1 byte
+- h (halfword): 1 unit = 2 bytes
+- w (word): 1 unit = 4 bytes
+- g (giant word): 1 unit = 8 bytes
+- c (character): 1 unit = 1 byte
+- s (string): Each unit is a null-terminated string
+- i (instruction): 1 unit = size of an instruction (architecture-dependent)
 
 # xv6
 
