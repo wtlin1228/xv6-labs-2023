@@ -25,7 +25,7 @@
 
 -   [x] RISC-V assembly (easy) - [link](https://github.com/wtlin1228/xv6-labs-2023/commit/c6d2ab1b6cbeb8af8f2944f5c6946619ba989d97)
 -   [x] Backtrace (moderate) - [link](https://github.com/wtlin1228/xv6-labs-2023/commit/b53e2396d4edff7943ee9f75d33ec56890c6d197)
-
+-   [x] Alarm (hard) - [link](https://github.com/wtlin1228/xv6-labs-2023/commit/085e5257ba88b0257c6c600b222306a370a7e7ab)
 
 
 # Note
