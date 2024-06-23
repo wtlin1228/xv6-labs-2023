@@ -59,6 +59,20 @@ SH
 2. save the `$pc` to `$sepc`
 3. save trampoline page to `$pc` (through jumping to `$stvec`)
 
+## Page Faults
+
+Using page faults, we change the `va -> pa` mapping from static to dynamic(lazy).
+
+Some optimztion features leveraging page faults:
+
+- copy-on-write fork
+- lazy allocation
+- demand paging
+- paging to disk
+- automatically extending stacks
+- memory-mapped files
+
+
 # GNU Debugger
 
 ## QEMU
