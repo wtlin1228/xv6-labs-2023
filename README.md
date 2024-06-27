@@ -27,6 +27,10 @@
 -   [x] Backtrace (moderate) - [link](https://github.com/wtlin1228/xv6-labs-2023/commit/b53e2396d4edff7943ee9f75d33ec56890c6d197)
 -   [x] Alarm (hard) - [link](https://github.com/wtlin1228/xv6-labs-2023/commit/085e5257ba88b0257c6c600b222306a370a7e7ab)
 
+## Lab5: Copy-on-Write Fork for xv6
+
+-   [x] Implement copy-on-write fork (hard) - [link](https://github.com/wtlin1228/xv6-labs-2023/commit/105817a92d400a291cdb5210a5b493eef2b96f59)
+
 
 # Note
 
