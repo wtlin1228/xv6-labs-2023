@@ -76,6 +76,14 @@ Some optimztion features leveraging page faults:
 - automatically extending stacks
 - memory-mapped files
 
+## Thread
+
+In xv6:
+
+- each CPU has a scheduler thread
+- each user process has a user thread and a kernel thread
+- timer interrupts and sleep will yield the CPU
+
 
 # GNU Debugger
 
