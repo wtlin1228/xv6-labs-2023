@@ -31,6 +31,10 @@
 
 -   [x] Implement copy-on-write fork (hard) - [link](https://github.com/wtlin1228/xv6-labs-2023/commit/2ee393191bca07bc4b8e38845cd8dd319b40e2dd)
 
+## Lab6: Multithreading
+
+-   [x] Uthread: switching between threads (moderate) - [link](https://github.com/wtlin1228/xv6-labs-2023/commit/9a6b37309b8bac510614db6334d3604d191084fc)
+
 
 # Note
 
