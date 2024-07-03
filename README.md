@@ -35,7 +35,7 @@
 
 -   [x] Uthread: switching between threads (moderate) - [link](https://github.com/wtlin1228/xv6-labs-2023/commit/9a6b37309b8bac510614db6334d3604d191084fc)
 -   [x] Using threads (moderate) - [link](https://github.com/wtlin1228/xv6-labs-2023/commit/0ecb5da4f806f0d05cd3e575f02958eb09f84442)
-
+-   [x] Barrier(moderate) - [link](https://github.com/wtlin1228/xv6-labs-2023/commit/4dcde2a7a7c755c3c507c66b87312c971dab679c)
 
 # Note
 
