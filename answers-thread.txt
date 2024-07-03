@@ -1,0 +1,1 @@
+Linked list will miss entry when the first thread and second thread both takes the same entry in `put`.
