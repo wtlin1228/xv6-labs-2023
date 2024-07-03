@@ -87,6 +87,8 @@ In xv6:
 
 # GNU Debugger
 
+https://sourceware.org/gdb/current/onlinedocs/gdb.html/
+
 ## QEMU
 
 - `control + A then C`: open the qemu console
