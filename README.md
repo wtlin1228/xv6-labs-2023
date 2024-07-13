@@ -41,6 +41,10 @@
 
 -   [x] Your Job (hard) - [link](https://github.com/wtlin1228/xv6-labs-2023/commit/80fc27f0361f88ad08ec3725f48dc01765088877)
 
+## Lab8: Locks
+
+-   [x] Memory allocator (moderate) - [link](https://github.com/wtlin1228/xv6-labs-2023/commit/85ebae1e84e38fa3b7d17737ef912ecd532eec6b)
+
 
 # Note
 
