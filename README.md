@@ -44,6 +44,7 @@
 ## Lab8: Locks
 
 -   [x] Memory allocator (moderate) - [link](https://github.com/wtlin1228/xv6-labs-2023/commit/85ebae1e84e38fa3b7d17737ef912ecd532eec6b)
+-   [x] Buffer cache (hard) - [link](https://github.com/wtlin1228/xv6-labs-2023/commit/3862cbfdd2921e6085c78b77f30e0366f313184f)
 
 
 # Note
